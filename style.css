@@ -2,6 +2,11 @@ body {
   border: 5px solid black;
 }
 
+.container {
+  width: 80vh;
+  height: 95vh;
+}
+
 div {
   display: flex;
   flex-flow: row nowrap;
@@ -9,9 +14,9 @@ div {
 }
 
 button, .output {
-  height: 10vw;
-  width: 10vw;
-  margin: 3vw;
+  height: 10vh;
+  width: 10vh;
+  margin: 3vh;
   font-size: 25px;
   border: 2px solid black;
 }
